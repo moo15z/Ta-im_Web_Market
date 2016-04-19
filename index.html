@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ta-im Web Market</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header-title">Ta-im</div>
+        <!-- ロゴを入れたい -->
+        <div class="header-menu">
+          <ul class="header-menu-right">
+            <!-- <li>
+              <a href="#languages">学習言語</a>
+            </li>
+            <li>
+              <a href="#features">特徴</a>
+            </li>
+            <li>
+              <a href="#pricing">料金</a>
+            </li>
+            <li>
+              <a href="#columns">コラム</a>
+            </li>
+            <li>
+              <a href="#contact">お問い合わせ</a> -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  
+    <!-- images slider -->
+    <div id="images" class="images-section">
+     <div class="container">
+      <div class="top-image-section">
+        <div id="image-carousel" class="carousel slide" data-ride="carousel" data-interval="2500">
+                  <ol class="carousel-indicators">
+                    <li data-target="#image-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#image-carousel" data-slide-to="1" class=""></li>
+                    <li data-target="#image-carousel" data-slide-to="2" class=""></li>
+                  </ol>
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item image-box active">
+                      <img data-src="holder.js/900x500/auto/#777:#555/text:First slide" alt="First slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNTU1O2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+" class="top-image">       
+                    </div>
+                    <div class="item image-box">
+                      <img data-src="holder.js/900x500/auto/#666:#444/text:Second slide" alt="Second slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNDQ0O2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==" class="top-image">
+                    </div>
+                    <div class="item image-box">
+                      <img data-src="holder.js/900x500/auto/#555:#333/text:Third slide" alt="Third slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzU1NSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojMzMzO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+VGhpcmQgc2xpZGU8L3RleHQ+PC9zdmc+" class="top-image">
+                    </div>
+                  </div>
+             </div>
+      </div>       
+     </div>
+    </div>
+
+    <!-- welcome message -->
+    <div id="welcome-message" class="welcome-message-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Ta-im Web Marketへようこそ！</h2>
+          <p>Ta-imのこだわりは保存料を避けて、フレッシュな食材をイスラエルの調理方法でお客さまにお出しすることです。<br>イスラエルの調理方法にはいろいろな文化や歴史が育んだ独特の方法があり、すぐに手に入るナスや豆でありながらその味わいは深いものです。<br>「食べる」ことでおいしく、楽しくイスラエルの食文化に触れていただければ嬉しいです。<br>そんなタイームの味をぜひご家庭でもお楽しみください。
+        </div>
+      </div>
+    </div>
+
+    <!-- contents -->
+    <div id="contents" class="contents-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>商品</h2>
+        </div>
+      </div>
+    </div>
+
+  
+    <script src="script.js"></script>
+  </body>
+</html>

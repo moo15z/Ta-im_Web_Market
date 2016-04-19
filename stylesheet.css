@@ -1,0 +1,112 @@
+/*----- 共通のCSS ------*/
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+p {
+	font-size: 18px;
+	color: #444;
+	padding: 0px 40px;
+	margin-top: 5px;
+}
+
+
+/*----- header -----*/
+header {
+	height: 50px;
+	border-bottom: 1px solid #dddddd;
+	top: 0;
+	left: 0;
+	right: 0;
+	line-height: 50px;
+}
+
+.header-title {
+	float: left;
+  line-height: 50px;
+  padding-left: 20px;
+  color: #0033FF;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/*-------  ここからcarousel  --------*/
+
+.top-image-section {
+  text-align: center;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.image-box {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  display: inline-block;
+  padding-top: 70px;
+}
+
+
+.top-image {
+  border: solid 5px #e6e6e6;
+}
+
+.carousel-inner > .active {
+    left: 0;
+}
+
+
+
+
+#image-carousel img {
+  display: inline-block;
+  z-index: 5;
+}
+
+#image-carousel li {
+  background-color: #869791;
+}
+.carousel-indicators {
+  z-index: 5;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #fff;
+}
+/*-------  ここまでcarousel  --------*/
+
+/*------- welcome message section ------*/
+.welcome-message-section {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*----- fin welcome message section ------*/
+
