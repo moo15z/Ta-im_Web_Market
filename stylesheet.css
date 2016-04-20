@@ -110,3 +110,31 @@ header {
 
 /*----- fin welcome message section ------*/
 
+/*----- main-section ------*/
+.main-image img {
+	margin-bottom: 5px;
+}
+
+.main-image {
+	padding-left: 100px;
+	float: left;
+}
+
+.product-images {
+	float: left;
+}
+
+.sub-images {
+	display: block;
+	float: left;
+}
+
+.product-info {
+	float: right;
+	width: 50%;
+}
+
+
+
+
+

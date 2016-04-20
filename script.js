@@ -4,3 +4,11 @@
 	});
 
 // fin
+
+// images
+  $('.image').imagefit({
+    mode: 'inside',
+    force : 'true',
+    halign : left,
+    valign : 'top'
+    });
